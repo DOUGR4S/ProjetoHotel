@@ -116,7 +116,7 @@ function showModal(nome, valor, imagem, classeDaImagem, classeDoInput, acessibil
                     <img src="${imagem}" class="${classeDaImagem}" alt="${acessibilidade}">
                     <div class="reserva">
                         <h3>${nome}</h3>
-                        <form action="https://servidor-pi.vercel.app/" method="POST">
+                        <form action="http://servidor-pi.vercel.app/" method="POST">
                         <ul>
                             <li>
                                 <input id="input-nome" type="text" placeholder="Digite seu nome completo" class="${classeDoInput}" required name="nome" autocomplete="off">
