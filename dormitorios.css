@@ -92,6 +92,10 @@ input {
     color: white;
 }
 
+#checkin, #checkout {
+    cursor: pointer;
+}
+
 .form {
     display: flex;    
 }
