@@ -96,10 +96,6 @@ input {
     cursor: pointer;
 }
 
-#valor {
-    cursor: default;
-}
-
 .form {
     display: flex;    
 }
