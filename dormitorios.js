@@ -134,6 +134,7 @@ function showModal(nome, valor, imagem, classeDaImagem, classeDoInput, acessibil
                                 <input type="text"  placeholder="Data checkout"
                                 onfocus="(this.type='date')" onblur="(this.type='text')" class="${classeDoInput}" id="checkout" onchange="simular()" required name="checkout">
                                 <input type="text" class="${classeDoInput}" value="${valor}" readonly="readonly" id="valor" name="valorTotal">
+                                <input type="text" style="display: none;" id="quartoSelecionado" value="${nome}" name="quartoReservado"> 
                             </li>
                         </ul>    
                             <button class="${classeDoInput}" type="submit">Reservar</button>
