@@ -128,10 +128,10 @@ function showModal(nome, valor, imagem, classeDaImagem, classeDoInput, acessibil
                                 <input type="number" placeholder="Digite seu telefone" class="${classeDoInput}" required name="telefone" autocomplete="off">
                             </li>
                             <li class="form">
-                                <input type="text" placeholder="Data checkin"
+                                <input type="date" placeholder="Data checkin"
                                 class="${classeDoInput}" id="checkin" onchange="
                                     checkout.setAttribute('min', checkin.value)" required name="checkin" min="${dataConvertida}">
-                                <input type="text"  placeholder="Data checkout"
+                                <input type="date"  placeholder="Data checkout"
                                 class="${classeDoInput}" id="checkout" onchange="simular()" required name="checkout">
                                 <input type="text" class="${classeDoInput}" value="${valor}" readonly="readonly" id="valor" name="valorTotal">
                                 <input type="text" style="display: none;" id="quartoSelecionado" value="${nome}" name="quartoReservado"> 
