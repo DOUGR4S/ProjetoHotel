@@ -129,10 +129,10 @@ function showModal(nome, valor, imagem, classeDaImagem, classeDoInput, acessibil
                             </li>
                             <li class="form">
                                 <input type="text" placeholder="Data checkin"
-                                onfocus="(this.type='date')" onblur="(this.type='text')" class="${classeDoInput}" id="checkin" onchange="
+                                class="${classeDoInput}" id="checkin" onchange="
                                     checkout.setAttribute('min', checkin.value)" required name="checkin" min="${dataConvertida}">
                                 <input type="text"  placeholder="Data checkout"
-                                onfocus="(this.type='date')" onblur="(this.type='text')" class="${classeDoInput}" id="checkout" onchange="simular()" required name="checkout">
+                                class="${classeDoInput}" id="checkout" onchange="simular()" required name="checkout">
                                 <input type="text" class="${classeDoInput}" value="${valor}" readonly="readonly" id="valor" name="valorTotal">
                                 <input type="text" style="display: none;" id="quartoSelecionado" value="${nome}" name="quartoReservado"> 
                             </li>
