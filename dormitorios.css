@@ -92,9 +92,6 @@ input {
     color: white;
 }
 
-#checkin, #checkout {
-    cursor: pointer;
-}
 
 #valor {
     cursor: default;
